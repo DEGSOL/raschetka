@@ -42,7 +42,7 @@ body {
 
 .tx1 {
   font-family: "VT323", monospace;
-  font-size: 30;
+  font-size: 300%;
   color: white;
   position: relative;
 }
