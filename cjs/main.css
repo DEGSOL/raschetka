@@ -1,0 +1,92 @@
+body {
+ background: black; 
+}
+
+.b1 {
+  background: white;
+  border: 5px solid white;
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 6%;
+  width: 51%;
+  hiegh: 10%;
+}
+
+.b2 {
+  background: black;
+  border: 5px solid White;
+  margin: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  padding: 6%;
+  width: 51%;
+  hiegh: 10%;
+}
+
+.b1-t {
+  font-family: "VT323", monospace;
+  font-size: 18;
+  color: black;
+  position: relative;
+}
+
+.b2-t {
+  font-family: "VT323", monospace;
+  font-size: 18;
+  color: white;
+  position: relative;
+}
+
+.tx1 {
+  font-family: "VT323", monospace;
+  font-size: 30;
+  color: white;
+  position: relative;
+}
+
+.tx2 {
+  font-family: "VT323", monospace;
+  font-size: 14;
+  color: white;
+  position: relative;
+}
+
+.ed {
+  position: fixed;
+  button: 10%;
+}
+
+.tb {
+  width: 100%;
+  left: 0;
+  top: 18%;
+  text-align: center;
+  background: black;
+  border: 5px solid white;
+  position: fixed;
+}
+
+.tb1 {
+ top: 50%;
+ right: 0; 
+ position: fixed;
+}
+
+.tb2 {
+ top: 70%;
+ right: 0; 
+ position: fixed;
+}
+
+.br {
+ font-size: 36;
+ bottom: 5%;
+ position: fixed;
+ left: 15%;
+ padding: 6%;
+ width: 70%;
+ hiegh: 7%;
+}

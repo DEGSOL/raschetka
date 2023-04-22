@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <link rel="stylesheet" href="cjs/main.css"> 
+ </head>
+ 
+ <body>
+   <button class="b1">
+     <span class="b1-t">Расчёт<br> ЗП</span>
+    </button>
+   <button class="b2">
+     <span class="b2-t"><strike>Проверка<br> расчётки</strike></span>
+    </button><br><br><br><br><br>
+ <table border=3 solid white class="tb">
+  <tr>
+   <td width=50%>
+    <lebl class="tx1">Должность</lebl><br>
+    <select id="dols" onchange="updateValue()">
+    <option value ="1" class="tx2">Охранник 1 к.</option>
+    <option value ="2" class="tx2" disabled>Ст. Охранник 2 к.</option>
+    <option value ="3" class="tx2" disabled>Ст. Охранник 4 к.</option>
+    <option value ="4" class="tx2" disabled>Охранник 5 к.</option>
+    <option value ="5" class="tx2" disabled>Охранник 7 к.</option>
+   </select><br><br>
+   </td>
+   
+   <td width=50%>
+  <lebl class="tx1"><strike>Стаж</strike></lebl><br>
+  <select>
+   <option value ="1" class="tx2" disabled>До 2 лет</option>
+   <option value ="2" class="tx2" disabled>От 2 до 5 лет</option>
+   <option value ="3" class="tx2" disabled>От 5 до 7 лет</option>
+   <option value ="4" class="tx2" disabled>От 7 до 10 лет</option>
+   <option value ="5" class="tx2" disabled>От 10 лет</option>
+  </select><br><br> 
+  </td>
+  </tr>
+ 
+  <tr> 
+  <tr>
+  <td width=50%>
+  <lebl class="tx1">Премия</lebl><br>
+  <select id="prem" onchange="updateValue1()">
+   <option value ="1" class="tx2">0%</option>
+   <option value ="2" class="tx2">5%</option>
+   <option value ="3" class="tx2">10%</option>
+   <option value ="4" class="tx2">15%</option>
+   <option value ="5" class="tx2">20%</option>
+   <option value ="6" class="tx2">25%</option>
+   <option value ="7" class="tx2">30%</option>
+   <option value ="8" class="tx2">35%</option>
+   <option value ="9" class="tx2" selected>40% (стандартная)</option>
+  </select><br><br> 
+  </td>
+  <td width=50%>
+  <lebl class="tx1">Доп сложн.</lebl><br>
+  <select id="dprem" onchange="updateValue2()">
+   <option value ="1" class="tx2">0% (стандартная)</option>
+   <option value ="2" class="tx2">5%</option>
+   <option value ="3" class="tx2">10%</option>
+   <option value ="4" class="tx2">15%</option>
+   <option value ="5" class="tx2">20%</option>
+   <option value ="6" class="tx2">25%</option>
+   <option value ="7" class="tx2">30%</option>
+   <option value ="8" class="tx2">35%</option>
+   <option value ="9" class="tx2">40%</option>
+  </select><br><br> 
+  </td>
+  </tr>
+ </table>
+  
+  <form>
+   <table border=1 class=tb1 width=80%>
+   <tbody align="right">
+    <tr>
+     <td>
+      <p><label for="hrs" class="tx2">Кол-во часов</label>
+     </td>
+     <td>
+      <input type="text" value="0" maxlength="3" name="hrs" id="hrs" onchange="updateHr()"><br>
+      </td>
+    </tr>
+    <tr>
+     <td>
+      <p><label for="nhrs" class="tx2">Кол-во н. час.</label>
+     </td>
+     <td>
+      <input type="text" value="0" maxlength="3" name="nhrs" id="nhrs" onchange="updateNhr()"><br>
+      </td>
+    </tr>
+    <tr>
+     <td>
+      <p><label for="prhrs" class="tx2">Кол-во пр. час.</label>
+     </td>
+     <td>
+      <input type="text" value="0" maxlength="3" name="prhrs" id="prhrs" onchange="updatePhr()"><br>
+      </td>
+    </tr>
+   </tbody>
+   </table> 
+   
+   
+   </p>
+  
+  </form>
+  
+    <form class="end">
+   <table border=1 class=tb2 width=80%>
+   <tbody align="right">
+    <tr>
+     <td>
+      <p><label class="tx2">К выплате</label>
+     </td>
+     <td>
+      <input type="number" value="0" name="out" id="output" readonly><br>
+      </td>
+   </tbody>
+   </table> 
+   
+   
+   </p>
+  
+  </form>
+
+   <button class=br onclick="recalculate()">Расчитать</button> 
+ 
+ 
+  <script src="cjs/mainj.js"></script>
+ </body>
+</html>
