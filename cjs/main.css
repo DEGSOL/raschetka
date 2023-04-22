@@ -2,6 +2,12 @@
  
 }
 
+.xxx {
+ top: 18%;
+ position: fixed;
+}
+
+
 body {
  background: black; 
 }
