@@ -110,14 +110,14 @@ body {
 }
 
 .sel {
- hiegh: 200%;
- width: 300%;
+ hieght: 200%;
+ width: 30%;
  font-size: 200;
 }
 
 #output {
  background: white;
- hiegh: 200%;
- wigth: 300%;
+ hieght: 100%;
+ wigth: 250%;
  font-size: 300%;
 }
