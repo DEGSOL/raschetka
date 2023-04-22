@@ -108,13 +108,13 @@ body {
 
 .br {
 font-family: 'thin_pixel-7';
- font-size: 500%;
- bottom: 5%;
+ font-size: 800%;
+ top: 70%;
  position: fixed;
  left: 15%;
  padding: 6%;
  width: 70%;
- hiegh: 7%;
+ hieght: 15%;
 }
 
 .sel {
