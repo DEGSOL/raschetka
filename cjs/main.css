@@ -73,6 +73,8 @@ body {
 .tb1 {
  top: 50%;
  right: 0; 
+ background: black;
+ border: 5px solid white;
  position: fixed;
 }
 
