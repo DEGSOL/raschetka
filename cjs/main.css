@@ -61,14 +61,14 @@ body {
 }
 
 .tx1 {
-  font-family: "VT323", monospace;
+  font-family: 'thin_pixel-7';
   font-size: 300%;
   color: white;
   position: relative;
 }
 
 .tx2 {
-  font-family: "VT323", monospace;
+  font-family: 'thin_pixel-7';
   font-size: 250%;
   color: white;
   position: relative;
