@@ -19,6 +19,7 @@
 
 
 body {
+ font-family: 'thin_pixel-7';    
  background: black; 
 }
 
@@ -48,14 +49,14 @@ body {
 
 .b1-t {
   font-family: 'thin_pixel-7';
-  font-size: 400%;
+  font-size: 700%;
   color: black;
   position: relative;
 }
 
 .b2-t {
   font-family: 'thin_pixel-7';
-  font-size: 400%;
+  font-size: 600%;
   color: white;
   position: relative;
 }
