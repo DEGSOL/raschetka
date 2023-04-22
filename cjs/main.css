@@ -133,10 +133,9 @@ body {
 
 .inhr {
  background: white;
- hieght: 100%;
- wigth: 100%;
+ width: 30%;
  font-family: 'thin_pixel-7';
- font-size: 300%;
+ font-size: 400%;
 }
 
 .sel {
