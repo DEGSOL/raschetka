@@ -133,9 +133,9 @@ body {
 
 .inhr {
  background: white;
- width: 30%;
+ width: 25%;
  font-family: 'thin_pixel-7';
- font-size: 400%;
+ font-size: 500%;
 }
 
 .sel {
@@ -145,9 +145,9 @@ body {
 }
 
 #output {
- color: green;
+ color: black;
  background: white;
  width: 60%;
  font-family: 'thin_pixel-7';
- font-size: 500%;
+ font-size: 700%;
 }
