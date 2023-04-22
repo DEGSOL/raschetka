@@ -147,8 +147,7 @@ body {
 
 #output {
  background: white;
- hieght: 100%;
- wigth: 100%;
+ width: 60%;
  font-family: 'thin_pixel-7';
  font-size: 500%;
 }
