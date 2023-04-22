@@ -146,6 +146,7 @@ body {
 }
 
 #output {
+ color: green;
  background: white;
  width: 60%;
  font-family: 'thin_pixel-7';
