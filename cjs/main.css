@@ -3,6 +3,8 @@
 }
 
 .xxx {
+ hieght: 200%;
+ width: 400%;
  left: 40%;
  top: 40%;
  position: fixed;
@@ -108,13 +110,14 @@ body {
 }
 
 .sel {
- hiegh: 10%;
- width: 5%;
+ hiegh: 200%;
+ width: 300%;
  font-size: 200;
 }
 
 #output {
+ background: white;
  hiegh: 200%;
- wigth: 200%;
- font-size: 200%;
+ wigth: 300%;
+ font-size: 300%;
 }
