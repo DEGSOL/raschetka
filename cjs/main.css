@@ -28,14 +28,14 @@ body {
 
 .b1-t {
   font-family: "VT323", monospace;
-  font-size: 40%;
+  font-size: 200%;
   color: black;
   position: relative;
 }
 
 .b2-t {
   font-family: "VT323", monospace;
-  font-size: 18%;
+  font-size: 300%;
   color: white;
   position: relative;
 }
