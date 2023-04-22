@@ -47,14 +47,14 @@ body {
 }
 
 .b1-t {
-  font-family: "VT323", monospace;
+  font-family: 'thin_pixel-7';
   font-size: 400%;
   color: black;
   position: relative;
 }
 
 .b2-t {
-  font-family: "VT323", monospace;
+  font-family: 'thin_pixel-7';
   font-size: 400%;
   color: white;
   position: relative;
@@ -107,6 +107,7 @@ body {
 }
 
 .br {
+font-family: 'thin_pixel-7';
  font-size: 500%;
  bottom: 5%;
  position: fixed;
@@ -125,7 +126,7 @@ body {
 #output {
  background: white;
  hieght: 100%;
- wigth: 250%;
+ wigth: 280%;
  font-family: 'thin_pixel-7';
  font-size: 300%;
 }
