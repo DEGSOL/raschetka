@@ -49,7 +49,7 @@ body {
 
 .tx2 {
   font-family: "VT323", monospace;
-  font-size: 14;
+  font-size: 250%;
   color: white;
   position: relative;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .br {
- font-size: 36;
+ font-size: 500%;
  bottom: 5%;
  position: fixed;
  left: 15%;
