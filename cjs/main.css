@@ -114,7 +114,7 @@ body {
 
 .tb2 {
  top: 50%;
- right: 0;
+ right: 10;
  background: black;
  border: 5px solid white;
  position: fixed;
