@@ -109,6 +109,12 @@ body {
 
 .sel {
  hiegh: 10%;
- widthv 5%;
+ width: 5%;
  font-size: 200;
+}
+
+#output {
+ hiegh: 200%;
+ wigth: 200%;
+ font-size: 200%;
 }
