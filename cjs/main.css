@@ -80,7 +80,9 @@ body {
 
 .tb2 {
  top: 70%;
- right: 0; 
+ right: 0;
+ background: black;
+ border: 5px solid white;
  position: fixed;
 }
 
