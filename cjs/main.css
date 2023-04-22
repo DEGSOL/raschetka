@@ -132,7 +132,12 @@ body {
 }
 
 .inhr {
- 
+ background: black;
+ font-color: white;
+ hieght: 100%;
+ wigth: 100%;
+ font-family: 'thin_pixel-7';
+ font-size: 300%;
 }
 
 .sel {
