@@ -1,3 +1,9 @@
+window.onload = function() {
+  setInterval(function(){
+    location.reload();
+  }, 3000);
+}
+
 
 const hrst_1k = 101.09; //часовая ставка охранника 1 категории.
 const hrst_st2k = 120; //часовая ставка старшего охранника 2 категории (5 разряд).
