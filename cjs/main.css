@@ -32,7 +32,7 @@ body {
   display: inline-block;
   font-family: 'thin_pixel-7';
   line-height: 100%;
-  font-size: 50%; /*размер шрифта*/
+  font-size: 700%; /*размер шрифта*/
   text-align: center;
   vertical-align: middle;
 }
