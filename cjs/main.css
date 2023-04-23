@@ -28,9 +28,6 @@ body {
   background: white;
   border: 5px solid white;
   margin: 0;
-  top: 0;
-  left: 0;
-  position: fixed;
   padding: 0%;
 }
 
@@ -38,9 +35,6 @@ body {
   background: black;
   border: 5px solid White;
   margin: 0;
-  right: 0;
-  top: 0;
-  position: fixed;
   padding: 0%;
 }
 
