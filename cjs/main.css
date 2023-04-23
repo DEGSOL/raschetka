@@ -109,6 +109,7 @@ body {
 }
 
 #output {
+ border: 0;
  color: black;
  background: white;
  width: 100%;
