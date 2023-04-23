@@ -20,6 +20,7 @@
 
 body {    
  background: black;
+ autoflow: auto;
 }
 
 .b1 {
