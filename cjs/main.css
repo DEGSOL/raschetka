@@ -91,11 +91,8 @@ body {
 }
 
 .tb1 {
- top: 32%;
- right: 10%; 
  background: black;
  border: 0px solid black;
- position: fixed;
 }
 
 .tb2 {
