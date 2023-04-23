@@ -35,21 +35,7 @@ body {
   font-size: 700%; /*размер шрифта*/
   text-align: center;
   vertical-align: middle;
-}
-
-.b2 {
-  background: black;
-  border: 5px solid White;
-  margin: 0;
-  padding: 0%;
-  display: inline-block;
-  font-family: 'thin_pixel-7';
-  color: white;
-  line-height: 0.5;
-  font-size: 700%; /*размер шрифта*/
-  text-align: center;
-  vertical-align: middle;
-}
+}
 
 .tx1 {
   font-family: 'thin_pixel-7';
