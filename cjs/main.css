@@ -84,7 +84,7 @@ body {
 .tx4 {
   font-family: 'thin_pixel-7';
   font-size: 750%;
-  color: white;
+  color: black;
   position: relative;
 }  
 
@@ -108,14 +108,14 @@ body {
  top: 32%;
  right: 10%; 
  background: black;
- border: 5px solid white;
+ border: 0px solid black;
  position: fixed;
 }
 
 .tb2 {
  top: 50%;
  right: 5%;
- background: black;
+ background: white;
  border: 5px solid white;
  position: fixed;
 }
