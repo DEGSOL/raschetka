@@ -42,22 +42,14 @@ body {
   border: 5px solid White;
   margin: 0;
   padding: 0%;
-}
-
-.b1-t {
+  display: inline-block;
   font-family: 'thin_pixel-7';
-  font-size: 600%;
-  color: black;
-  position: relative;
+  line-height: 100%;
+  font-size: 700%; /*размер шрифта*/
+  text-align: center;
+  vertical-align: middle;
 }
-
-.b2-t {
-  font-family: 'thin_pixel-7';
-  font-size: 600%;
-  color: white;
-  position: relative;
-}
-
+
 .tx1 {
   font-family: 'thin_pixel-7';
   font-size: 800%;
