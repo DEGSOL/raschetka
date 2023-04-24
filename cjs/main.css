@@ -42,7 +42,7 @@ body {
 
 .tx1 {
   font-family: 'thin_pixel-7';
-  font-size: 700%;
+  font-size: 900%; /*700*/
   color: white;
   position: relative;
 }
