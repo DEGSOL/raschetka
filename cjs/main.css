@@ -107,7 +107,7 @@ body {
  color: black;
  background: white;
  width: 100%;
- display: inline-block;   
+ /* display: inline-block; */   
  font-family: 'thin_pixel-7';
  font-size: 700%;
 }
