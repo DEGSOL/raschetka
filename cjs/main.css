@@ -60,7 +60,7 @@ body {
 
 .tx4 {
   font-family: 'thin_pixel-7';
-  font-size: 700%;
+  font-size: 300%;
   color: black;
 }  
 
@@ -89,7 +89,7 @@ body {
 }
 
 .inhr {
- background: white;
+ background: grey;
  height: 70%;
  width: 100%;
  font-family: 'thin_pixel-7';
@@ -110,5 +110,5 @@ body {
  width: 100%;
  /* display: inline-block; */   
  font-family: 'thin_pixel-7';
- font-size: 700%;
+ font-size: 300%;
 }
