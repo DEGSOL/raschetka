@@ -1,7 +1,7 @@
 window.onload = function() {
   setInterval(function(){
     location.reload();
-  }, 3000);
+  }, 8000);
 }
 
 
