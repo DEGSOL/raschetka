@@ -63,7 +63,7 @@ body {
 
 .tx4 {
   font-family: 'thin_pixel-7';
-  font-size: 600%;
+  font-size: 800%;
   color: black;
 }  
 
@@ -85,7 +85,7 @@ body {
 
 .br {
 font-family: 'thin_pixel-7';
- font-size: 800%;
+ font-size: 1000%;
  text-align: center;
  /*vertical-align: middle;*/
  padding: 6%;
@@ -116,5 +116,5 @@ body {
  width: 100%;
  /* display: inline-block; */   
  font-family: 'thin_pixel-7';
- font-size: 600%;
+ font-size: 800%;
 }
