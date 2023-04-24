@@ -60,7 +60,7 @@ body {
 
 .tx4 {
   font-family: 'thin_pixel-7';
-  font-size: 300%;
+  font-size: 600%;
   color: black;
 }  
 
@@ -110,5 +110,5 @@ body {
  width: 100%;
  /* display: inline-block; */   
  font-family: 'thin_pixel-7';
- font-size: 300%;
+ font-size: 600%;
 }
