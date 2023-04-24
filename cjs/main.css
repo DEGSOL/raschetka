@@ -133,7 +133,7 @@ body {
   position: relative;
   background-color: white;
   font-family: 'thin_pixel-7';
-  font-size: 500%;
+  font-size: 300%;
 }
 .sel1, .sel1 select { width: 240px;}
 select:focus { outline: none; }
