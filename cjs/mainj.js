@@ -1,8 +1,8 @@
-window.onload = function() {
-  setInterval(function(){
-    location.reload();
-  }, 8000);
-}
+//window.onload = function() {
+//  setInterval(function(){
+//    location.reload();
+//  }, 8000);
+//}
 
 
 const hrst_1k = 101.09; //часовая ставка охранника 1 категории.
