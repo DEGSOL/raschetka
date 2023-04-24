@@ -68,6 +68,25 @@ body {
   color: black;
 }
 
+.tx5 {
+  font-family: 'thin_pixel-7';
+  font-size: 600%; /*700*/
+  color: grey;
+  position: relative;
+  align-items: center;
+	text-align: center
+
+}
+
+.tx6 {
+  font-family: 'thin_pixel-7';
+  font-size: 600%; /*700*/
+  color: gray;
+  position: relative;
+  align-items: center;
+  text-align: center
+}
+
 .ed {
   position: fixed;
   button: 10%;
@@ -114,10 +133,21 @@ font-family: 'thin_pixel-7';
  color: black;
  background: white;
  height: 100%;
- width: 225px;
+ width: 245px;
  /* display: inline-block; */
  font-family: 'thin_pixel-7';
  font-size: 600%;
+}
+
+
+#rectangle {
+	  top: 1600px;
+    width: 900px;
+    height: 470px;
+		position: relative;
+		margin: 0 auto;
+		transform: translateY(-10%);
+    background: #212020;
 }
 
 
