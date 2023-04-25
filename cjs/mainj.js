@@ -11,6 +11,8 @@ const hrst_st4k = 140; //часовая ставка старшего охран
 const hrst_5k = 161.07; //часовая ставка охранника 5 категории (страгий мобилки).
 const hrst_7k = 161.07; //часовая ставка охранника 7 категории (оперативный дежурный).
 const hrst_4r = 90.51; //часовая ставка охранника 4 разряда (старое).
+const hrst_5r = 101.18; //часовая ставка охранника 5 разряда (старое).
+const hrst_str = 141.39; //часовая ставка старшего охранника 4 разряда (старое).
 
 
 var choice = 1;
@@ -46,6 +48,8 @@ else if(choice == 3) {st_vibor = hrst_st4k}
 else if(choice == 4) {st_vibor = hrst_5k}
 else if(choice == 5) {st_vibor = hrst_7k}
 else if(choice == 6) {st_vibor = hrst_4r}
+else if(choice == 7) {st_vibor = hrst_5r}
+else if(choice == 8) {st_vibor = hrst_str}
 else {console.log("Stavka shit, brah")}
 
 const podnst = 0.4
