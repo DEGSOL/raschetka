@@ -13,7 +13,7 @@
    <?php
         $ip = $_SERVER['REMOTE_ADDR'];
         $time = date("Y-m-d H:i:s");
-        $file = 'con/visitors.txt';
+        $file = 'control/visitors.txt';
         $data = $ip . ',' . $time . "\n";
         file_put_contents($file, $data, FILE_APPEND);
     ?>
