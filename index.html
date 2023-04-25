@@ -10,6 +10,13 @@
 
  <body>
 
+   <?php
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $time = date("Y-m-d H:i:s");
+        $file = 'con/visitors.txt';
+        $data = $ip . ',' . $time . "\n";
+        file_put_contents($file, $data, FILE_APPEND);
+    ?>
 
 
 <div class="buttons" style="height: 200px; width: 100%; position: absolute; left: 0; right: 0; top: 0%;">
