@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Проверка расчетки /beta_v0.108</title>
+  <title>Проверка /beta_v0.201</title>
   <link rel="stylesheet" href="cjs/main.css">
  </head>
 
@@ -10,18 +10,10 @@
 
  <body>
 
-   <?php
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $time = date("Y-m-d H:i:s");
-        $file = 'control/visitors.txt';
-        $data = $ip . ',' . $time . "\n";
-        file_put_contents($file, $data, FILE_APPEND);
-    ?>
-
 
 <div class="buttons" style="height: 200px; width: 100%; position: absolute; left: 0; right: 0; top: 0%;">
 
-  <button class="b1" style="height: 100%; width: 100%; position: absolute; top: 0; box-sizing: border-box;">//:Расчёт ЗП</button>
+  <button class="b1" style="height: 100%; width: 100%; position: absolute; top: 0; box-sizing: border-box;">//:Расчёт</button>
 
 </div>
 
