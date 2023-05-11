@@ -19,7 +19,6 @@ var choice = 1;
 var st_vibor = 1;
 
 var staw = 1;
-var staaw = 1;
 
 var rpr = 9;
 var dpr = 1;
@@ -79,6 +78,7 @@ phr = parseInt(prhrsInput.value);
 
 var rrpr = 0.4;
 var ddpr = 0.0; //премия за доп. сложность.
+var staaw = 0.0; //% стажа.
 const skf = 0.8; //северный коэффициент.
 const rkf = 0.7; //районный коэффициент.
 
@@ -112,10 +112,10 @@ else if(dpr == 9) {ddpr = 0.4}
 else {console.log("dpr shit, brah")}
 
 if(staw == 1) {staaw = 0.0}
-else if(rpr == 2) {rrpr = 0.03}
-else if(rpr == 3) {rrpr = 0.05}
-else if(rpr == 4) {rrpr = 0.07}
-else if(rpr == 5) {rrpr = 0.1}
+else if(staw == 2) {staaw = 0.03}
+else if(staw == 3) {staaw = 0.05}
+else if(staw == 4) {staaw = 0.07}
+else if(staw == 5) {staaw = 0.1}
 else {console.log("staw shit, brah")}
 
 
