@@ -18,6 +18,9 @@ const hrst_str = 141.39; //часовая ставка старшего охра
 var choice = 1;
 var st_vibor = 1;
 
+var staw = 1;
+var staaw = 1;
+
 var rpr = 9;
 var dpr = 1;
 
@@ -36,6 +39,11 @@ function updateValue2() {
   var selectElement = document.getElementById("dprem");
   var selectedValue = selectElement.value;
   dpr = parseInt(selectedValue);
+}
+function updateValue3() {
+  var selectElement = document.getElementById("stas");
+  var selectedValue = selectElement.value;
+  staw = parseInt(selectedValue);
 }
 
 
@@ -102,6 +110,14 @@ else if(dpr == 7) {ddpr = 0.3}
 else if(dpr == 8) {ddpr = 0.35}
 else if(dpr == 9) {ddpr = 0.4}
 else {console.log("dpr shit, brah")}
+
+if(staw == 1) {staaw = 0.0}
+else if(rpr == 2) {rrpr = 0.03}
+else if(rpr == 3) {rrpr = 0.05}
+else if(rpr == 4) {rrpr = 0.07}
+else if(rpr == 5) {rrpr = 0.1}
+else {console.log("staw shit, brah")}
+
 
 
 
