@@ -126,19 +126,20 @@ var ddh = 0; //дополнительный доход.
 
 //далее расчёт:.
 var a1 = st_vibor * hr; //часовая оплата общ.
+var s1 = staaw * a1; // стаж * на количество часов
 var a2 = nst * nhr; //часовая оплата за ночные часы 
 var a3 = st_vibor * phr; //часовая оплата за праздничные часы.
 
 var aa4 = a1 * ddpr; //премия доп сложность.
-var a4 = (a1 + a2 + aa4) * rrpr; //премия от предприятия.
-var a5 = (a1 + a2 + a3 + a4 + aa4) * rkf; //районный коэффициент.
-var a6 = (a1 + a2 + a3 + a4 + aa4) * skf; //северный коэффициент.
+var a4 = (a1 + a2 + aa4 + s1) * rrpr; //премия от предприятия.
+var a5 = (a1 + a2 + a3 + a4 + aa4 + s1) * rkf; //районный коэффициент.
+var a6 = (a1 + a2 + a3 + a4 + aa4 + s1) * skf; //северный коэффициент.
 
 
 var dopdoh = 0;
 
 
-var pre = a1 + a2 + a3+ aa4 + a4 + a5 + a6 + dopdoh;
+var pre = a1 + a2 + a3+ aa4 + s1 + a4 + a5 + a6 + dopdoh;
 var preout = pre / 100 * 13;
 var out = pre - preout;
 
