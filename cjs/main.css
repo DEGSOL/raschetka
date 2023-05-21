@@ -186,3 +186,13 @@ select:focus { outline: none; }
 _:-o-prefocus, .selector {
   .sel { background: none; }
   }
+
+
+.qr {
+  top: 2000px;
+  position: absolute;
+  background: green;
+  border-radius: 20px;
+  height: 480px;
+  width: 100%;
+}  
