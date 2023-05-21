@@ -189,9 +189,9 @@ _:-o-prefocus, .selector {
 
 
 .qr {
-  top: 2000px;
+  top: 1200px;
   position: absolute;
-  background: white;
+  background: red;
   border-radius: 20px;
   height: 480px;
   width: 100%;
