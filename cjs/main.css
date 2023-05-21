@@ -195,4 +195,10 @@ _:-o-prefocus, .selector {
   border-radius: 20px;
   height: 680px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }  
+
+img {
+    margin: auto;
+  }
