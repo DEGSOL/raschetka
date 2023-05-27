@@ -84,12 +84,12 @@ phr = parseInt(prhrsInput.value);
 
 // новое!!
 
-  const input = document.getElementById("hrs");
-  input.addEventListener("input", function() {
-    if (input.value === "") {
-      input.value = "0";
-    }
-  });
+//  const input = document.getElementById("hrs");
+//  input.addEventListener("input", function() {
+//    if (input.value === "") {
+//      input.value = "0";
+//    }
+//  });
 
 // новое!!
 
