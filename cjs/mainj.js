@@ -92,17 +92,21 @@ phr = parseInt(prhrsInput.value);
 //  });
 
 
-  const input = document.getElementById("hrs");
+  const inputs = document.querySelectorAll(".inhr");
+
+inputs.forEach(input => {
   input.addEventListener("focus", function() {
     if (input.value === "0") {
       input.value = "";
     }
   });
+
   input.addEventListener("blur", function() {
     if (input.value === "") {
       input.value = "0";
     }
   });
+});  
 
 
 // новое!!
@@ -205,4 +209,4 @@ document.getElementById("output").value = out;
 
 setInterval(function() {
 recalculate();
-}, 200);
+}, 200); 
