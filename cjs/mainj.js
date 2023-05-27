@@ -179,3 +179,6 @@ document.getElementById("output").value = out;
 }
 
 
+setInterval(function() {
+recalculate();
+}, 500);
