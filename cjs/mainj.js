@@ -91,6 +91,20 @@ phr = parseInt(prhrsInput.value);
 //    }
 //  });
 
+
+  const input = document.getElementById("hrs");
+  input.addEventListener("focus", function() {
+    if (input.value === "0") {
+      input.value = "";
+    }
+  });
+  input.addEventListener("blur", function() {
+    if (input.value === "") {
+      input.value = "0";
+    }
+  });
+
+
 // новое!!
 
 var rrpr = 0.4;
