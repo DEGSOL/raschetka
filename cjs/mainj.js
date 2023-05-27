@@ -92,12 +92,25 @@ phr = parseInt(prhrsInput.value);
 //  });
 
 
-  const inputs = document.querySelectorAll(".inhr");
+ const inputs = document.querySelectorAll(".inhr");
 
 inputs.forEach(input => {
   input.addEventListener("focus", function() {
     if (input.value === "0") {
       input.value = "";
+    }
+    // Установка курсора в конец поля
+    input.selectionStart = input.selectionEnd = input.value.length;
+  });
+
+  input.addEventListener("input", function() {
+    // Удаление любых символов, не являющихся цифрами
+    input.value = input.value.replace(/[^0-9]/g, "");
+    // Ограничение ввода до трех знаков
+    input.value = input.value.slice(0, 3);
+    // Ограничение максимального значения до 250
+       if (Number(input.value) > 250) {
+      input.value = "250";
     }
   });
 
