@@ -128,6 +128,28 @@ font-family: 'thin_pixel-7';
  font-size: 100%;
 }
 
+ #outpre {
+ border: 0;
+ color: grey;
+ background: black;
+ height: 100%;
+ width: 245px;
+ /* display: inline-block; */
+ font-family: 'thin_pixel-7';
+ font-size: 600%;
+}  
+
+#outpree {
+ border: 0;
+ color: grey;
+ background: black;
+ height: 100%;
+ width: 245px;
+ /* display: inline-block; */
+ font-family: 'thin_pixel-7';
+ font-size: 600%;
+}
+
 #output {
  border: 0;
  color: black;
