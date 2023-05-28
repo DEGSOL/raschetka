@@ -43,7 +43,7 @@ body {
   font-family: 'RIMMA_SANS-BOLD';
   color: black;
   line-height: 0.5;
-  font-size: 1000%; /*размер шрифта*/
+  font-size: 800%; /*размер шрифта*/
   display: flex;
   align-items: center;
   justify-content: center;
