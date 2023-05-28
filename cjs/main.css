@@ -176,17 +176,16 @@ font-family: 'thin_pixel-7';
     background: #212020;
 }
 
-#rectangleras {
- top: 1250px;
- width: 900px;
- height: 470px;
-	position: relative;
-	margin: 0 auto;
-	transform: translateY(-10%);
- background: #212020;
-}
-
-
+.line {
+ top: 830px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  height: 30px;
+  width: 70%;
+  right: 0;
+}  
+
 
 .sel1 {
   height: 80%;
