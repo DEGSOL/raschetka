@@ -3,6 +3,17 @@
 	src: url(thin_pixel-7.ttf);
 }
 
+@font-face {
+  font-family: 'RIMMA_SANS-BOLD';
+  src: url('RIMMA_SANS-BOLD.ttf.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Groteskly Yours - Rothek ExtraLight';
+  src: url('Groteskly Yours - Rothek ExtraLight.otf') format('opentype');
+}
+
+
 
 .hhh {
  width: 50%;
