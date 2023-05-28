@@ -89,7 +89,7 @@ body {
 
 .tx7 {
   font-family: 'thin_pixel-7';
-  font-size: 500%;
+  font-size: 400%;
   color: grey;
 }
 
@@ -142,7 +142,7 @@ font-family: 'thin_pixel-7';
  width: 235px;
  /* display: inline-block; */
  font-family: 'thin_pixel-7';
- font-size: 500%;
+ font-size: 400%;
 }  
 
 #outpree {
@@ -153,7 +153,7 @@ font-family: 'thin_pixel-7';
  width: 235px;
  /* display: inline-block; */
  font-family: 'thin_pixel-7';
- font-size: 500%;
+ font-size: 400%;
 }
 
 #output {
