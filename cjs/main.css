@@ -179,9 +179,9 @@ font-family: 'thin_pixel-7';
 
 
 #rectangle {
-	  top: 1230px;
+	  top: 1130px;
     width: 900px;
-    height: 780px;
+    height: 680px;
 		position: relative;
 		margin: 0 auto;
 		transform: translateY(-10%);
