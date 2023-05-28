@@ -141,7 +141,7 @@ font-family: 'thin_pixel-7';
 
 
 #rectangle {
-	  top: 1050px;
+	  top: 1250px;
     width: 900px;
     height: 470px;
 		position: relative;
@@ -189,7 +189,7 @@ _:-o-prefocus, .selector {
 
 
 .qr {
-  top: 1400px;
+  top: 1800px;
   position: absolute;
   background: white;
   border-radius: 20px;
