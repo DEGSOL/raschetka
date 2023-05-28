@@ -87,6 +87,12 @@ body {
   text-align: center
 }
 
+.tx7 {
+  font-family: 'thin_pixel-7';
+  font-size: 400%;
+  color: grey;
+}
+
 .ed {
   position: fixed;
   button: 10%;
