@@ -217,11 +217,11 @@ console.log(rrpr);
 console.log(ddpr);
 
 
-document.getElementById("out1").value = pre;
+document.getElementById("outpre").value = pre;
 }
  
 
-document.getElementById("out2").value = preout;
+document.getElementById("outpree").value = preout;
 }
 
 
