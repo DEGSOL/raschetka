@@ -17,12 +17,12 @@
 
 .hhh {
  width: 50%;
- hieght: 30%;
+ height: 30%;
  font-size: 300%;
 }
 
 .xxx {
- hieght: 200%;
+ height: 200%;
  width: 400%;
  left: 40%;
  top: 40%;
@@ -50,8 +50,8 @@ body {
 }
 
 .tx1 {
-  font-family: 'thin_pixel-7';
-  font-size: 900%; /*700*/
+  font-family: 'RIMMA_SANS-BOLD';
+  font-size: 350%; /*700*/
   color: white;
   position: relative;
   display: block;
@@ -59,28 +59,29 @@ body {
 }
 
 .tx2 {
-  font-family: 'thin_pixel-7';
-  font-size: 850%;
+  font-family: 'Groteskly Yours - Rothek ExtraLight';
+  background-color: #363636;
+  font-size: 30px;
   color: white;
   position: relative;
 }
 
 .tx3 {
-  font-family: 'thin_pixel-7';
-  font-size: 550%;
+  font-family: 'Groteskly Yours - Rothek ExtraLight';
+  font-size: 400%;
   color: white;
   position: relative;
 }
 
 .tx4 {
-  font-family: 'thin_pixel-7';
-  font-size: 600%;
+  font-family: 'RIMMA_SANS-BOLD';
+  font-size: 400%;
   color: black;
 }
 
 .tx5 {
-  font-family: 'thin_pixel-7';
-  font-size: 600%; /*700*/
+  font-family: 'RIMMA_SANS-BOLD';
+  font-size: 300%; /*700*/
   color: grey;
   position: relative;
   align-items: center;
@@ -89,8 +90,8 @@ body {
 }
 
 .tx6 {
-  font-family: 'thin_pixel-7';
-  font-size: 600%; /*700*/
+  font-family: 'Groteskly Yours - Rothek ExtraLight';
+  font-size: 400%; /*700*/
   color: gray;
   position: relative;
   align-items: center;
@@ -98,8 +99,8 @@ body {
 }
 
 .tx7 {
-  font-family: 'thin_pixel-7';
-  font-size: 500%;
+  font-family: 'Groteskly Yours - Rothek ExtraLight';
+  font-size: 300%;
   color: grey;
 }
 
@@ -132,10 +133,10 @@ font-family: 'thin_pixel-7';
 
 .inhr {
  background: white;
- height: 45px;
- width: 75px;
- font-family: 'thin_pixel-7';
- font-size: 500%;
+ height: 50px;
+ width: 110px;
+ font-family: 'Groteskly Yours - Rothek ExtraLight';
+ font-size: 400%;
 }
 
 .sel {
@@ -144,16 +145,16 @@ font-family: 'thin_pixel-7';
  font-size: 100%;
 }
 
- #outpre {
+#outpre {
  border: 0;
  color: white;
  background: black;
  height: 100%;
  width: 235px;
  /* display: inline-block; */
- font-family: 'thin_pixel-7';
- font-size: 500%;
-}  
+ font-family: 'Groteskly Yours - Rothek ExtraLight';
+ font-size: 300%;
+}
 
 #outpree {
  border: 0;
@@ -162,8 +163,8 @@ font-family: 'thin_pixel-7';
  height: 100%;
  width: 235px;
  /* display: inline-block; */
- font-family: 'thin_pixel-7';
- font-size: 500%;
+ font-family: 'Groteskly Yours - Rothek ExtraLight';
+ font-size: 300%;
 }
 
 #output {
@@ -171,33 +172,43 @@ font-family: 'thin_pixel-7';
  color: black;
  background: white;
  height: 100%;
- width: 270px;
+ width: 440px;
  /* display: inline-block; */
- font-family: 'thin_pixel-7';
- font-size: 600%;
+ font-family: 'RIMMA_SANS-BOLD';
+ font-size: 400%;
 }
 
 
 #rectangle {
-	  top: 1300px;
-    width: 900px;
-    height: 470px;
+	  top: 1230px;
+    width: 1000px;
+    height: 780px;
 		position: relative;
 		margin: 0 auto;
 		transform: translateY(-10%);
-    background: #212020;
+    transform: translateX(1%);
+    background: #0d0d0d;
 }
 
 .line {
- top: 860px;
+ top: 850px;
   position: absolute;
-  background: grey;
-  border-radius: 5px;
+  background: linear-gradient(to left, #0d0d0d, #363636);
+  border-radius: 18px;
   height: 15px;
-  width: 80%;
+  width: 90%;
   right: 0;
-}  
-
+}
+
+.linee {
+ top: 451px;
+  position: absolute;
+  background: linear-gradient(to right, #0d0d0d, #363636);
+  border-radius: 18px;
+  height: 15px;
+  width: 90%;
+  left: 0;
+}
 
 .sel1 {
   height: 80%;
@@ -234,7 +245,7 @@ _:-o-prefocus, .selector {
 
 
 .qr {
-  top: 1800px;
+  top: 2100px;
   position: absolute;
   background: white;
   border-radius: 20px;
@@ -242,8 +253,18 @@ _:-o-prefocus, .selector {
   width: 100%;
   display: flex;
   justify-content: center;
-}  
+}
 
 img {
     margin: auto;
+  }
+
+.sel1 {
+    font-family: 'Groteskly Yours - Rothek ExtraLight';
+    color: white;
+    background-color: #0d0d0d;
+    font-size: 50px;
+    height: 55px;
+    width: 400px;
+    text-align: center;
   }
