@@ -218,12 +218,8 @@ console.log(ddpr);
 
 
 document.getElementById("outpre").value = pre;
-}
- 
 
 document.getElementById("outpree").value = preout;
-}
-
 
 document.getElementById("output").value = out;
 }
