@@ -176,7 +176,15 @@ font-family: 'thin_pixel-7';
     background: #212020;
 }
 
-
+#rectangleras {
+ top: 1250px;
+ width: 900px;
+ height: 470px;
+	position: relative;
+	margin: 0 auto;
+	transform: translateY(-10%);
+ background: #212020;
+}
 
 
 
