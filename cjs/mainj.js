@@ -203,7 +203,7 @@ pre = pre.toFixed(2);
 preout = preout.toFixed(2);
 out = out.toFixed(2);
 
-var out = 240123.23
+//var out = 240123.23
 
 // Добавляем пробелы между каждыми тремя цифрами
 pre = pre.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
