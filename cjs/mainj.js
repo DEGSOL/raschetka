@@ -204,7 +204,11 @@ preout = preout.toFixed(2);
 out = out.toFixed(2);
 
 // Добавляем пробелы между каждыми тремя цифрами
-//out = out.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+pre = pre.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+
+preout = preout.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+
+out = out.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");  
 
 console.log("Часы" + " - " + a1);
 console.log(a2);
