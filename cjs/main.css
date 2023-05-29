@@ -132,6 +132,7 @@ font-family: 'thin_pixel-7';
 
 .inhr {
  background: white;
+ border-radius: 8px;
  border: 0;
  height: 50px;
  width: 130px;
@@ -261,6 +262,7 @@ img {
 
 .sel1 {
     font-family: 'Groteskly Yours - Rothek ExtraLight';
+    border-radius: 8px;
     color: white;
     background-color: #363636;
     font-size: 50px;
