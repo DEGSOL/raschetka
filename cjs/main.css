@@ -132,6 +132,7 @@ font-family: 'thin_pixel-7';
 
 .inhr {
  background: white;
+ border: 0;
  height: 50px;
  width: 130px;
  font-family: 'Groteskly Yours - Rothek ExtraLight';
