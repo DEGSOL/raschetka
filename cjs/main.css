@@ -131,7 +131,8 @@ font-family: 'thin_pixel-7';
 }
 
 .inhr {
- background: white;
+ background-color: #363636;
+ color: white;
  border-radius: 8px;
  border: 0;
  height: 50px;
