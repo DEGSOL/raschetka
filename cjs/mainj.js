@@ -5,21 +5,21 @@
 //}
 
 
-const hrst_1k = 106.89; //часовая ставка охранника 1 категории.
+const hrst_1k = 101.09; //ч ст ох 1 к
 
-const hrst_st2k = 120; //часовая ставка старшего охранника 2 категории (5 разряд).
+const hrst_st2k = 117.27; //ч ст ст ох 2 к (5 р).
 
-const hrst_st4k = 146.58; //часовая ставка старшего охранника 4 категории (старший абк).
+const hrst_st4k = 146.58; //ч ст ст оx 4 к (ст абк).
 
-const hrst_5k = 161.75; //часовая ставка охранника 5 категории (старший мобилки).
+const hrst_5k = 161.75; //ч ст ох 5 к (ст моб).
 
-const hrst_7k = 180.00; //часовая ставка охранника 7 категории (оперативный дежурный).
+const hrst_7k = 180.00; //ч ст ох 7 к (оп д).
 
-const hrst_4r = 90.51; //часовая ставка охранника 4 разряда (старое).
+const hrst_4r = 90.51; //ч ст ох 4 р (старое).
 
-const hrst_5r = 101.18; //часовая ставка охранника 5 разряда (старое).
+const hrst_5r = 101.18; //ч ст ох 5 р (старое).
 
-const hrst_str = 141.39; //часовая ставка старшего охранника 4 разряда (старое).
+const hrst_str = 141.39; //ч ст ст ох 4 р (старое).
 
 
 var choice = 1;
@@ -67,12 +67,12 @@ else if(choice == 8) {st_vibor = hrst_str}
 else {console.log("Stavka shit, brah")}
 
 const podnst = 0.4
-const nst = st_vibor * podnst; //ночная ставка
+const nst = st_vibor * podnst; //ноч ст
 
 
-var hr = 0; //количество часов.
-var nhr = 0; //количество ночных часов.
-var phr = 0; //количество праздничных часов.
+var hr = 0; //кол ч.
+var nhr = 0; //кол н ч.
+var phr = 0; //кол пр ч.
 
 
 var hrsInput = document.getElementById("hrs");
@@ -125,10 +125,10 @@ inputs.forEach(input => {
 // новое!!
 
 var rrpr = 0.4;
-var ddpr = 0.0; //премия за доп. сложность.
+var ddpr = 0.0; //пр за доп. сл.
 var staaw = 0.0; //% стажа.
-const skf = 0.8; //северный коэффициент.
-const rkf = 0.7; //районный коэффициент.
+var skf = 0.8; //с ко.
+var rkf = 0.7; //р ко.
 
 
 //function updateValue() {
@@ -169,19 +169,19 @@ else {console.log("staw shit, brah")}
 
 
 
-var ddh = 0; //дополнительный доход.
+var ddh = 0; //доп дох.
 
 
 //далее расчёт:.
-var a1 = st_vibor * hr; //часовая оплата общ.
-var s1 = staaw * a1; // стаж * на количество часов
-var a2 = nst * nhr; //часовая оплата за ночные часы
-var a3 = st_vibor * phr; //часовая оплата за праздничные часы.
+var a1 = st_vibor * hr; //ч опл общ.
+var s1 = staaw * a1; // стаж * на кол ч
+var a2 = nst * nhr; //ч опл за н ч
+var a3 = st_vibor * phr; //ч опл за пр ч.
 
-var aa4 = a1 * ddpr; //премия доп сложность.
-var a4 = (a1 + a2 + aa4 + s1) * rrpr; //премия от предприятия.
-var a5 = (a1 + a2 + a3 + a4 + aa4 + s1) * rkf; //районный коэффициент.
-var a6 = (a1 + a2 + a3 + a4 + aa4 + s1) * skf; //северный коэффициент.
+var aa4 = a1 * ddpr; //пр доп сл.
+var a4 = (a1 + a2 + aa4 + s1) * rrpr; //пр от пр.
+var a5 = (a1 + a2 + a3 + a4 + aa4 + s1) * rkf; //р ко.
+var a6 = (a1 + a2 + a3 + a4 + aa4 + s1) * skf; //с ко.
 
 
 var dopdoh = 0;
@@ -195,6 +195,7 @@ var out = pre - preout;
 a1 = a1.toFixed(2);
 a2 = a2.toFixed(2);
 a3 = a3.toFixed(2);
+s1 = s1.toFixed(2);
 aa4 = aa4.toFixed(2);
 a4 = a4.toFixed(2);
 a5 = a5.toFixed(2);
@@ -224,6 +225,8 @@ console.log("13%" + " - " + preout);
 console.log(choice);
 console.log(rrpr);
 console.log(ddpr);
+console.log(skf + " " + "сев коэф");
+console.log(rkf + " " + "рай коэф");
 
 
 document.getElementById("outpre").value = pre;
@@ -231,6 +234,38 @@ document.getElementById("outpre").value = pre;
 document.getElementById("outpree").value = preout;
 
 document.getElementById("output").value = out;
+
+document.getElementById("khrs").value = hr;
+
+document.getElementById("shrs").value = a1;
+
+document.getElementById("knhrs").value = nhr;
+
+document.getElementById("snhrs").value = a2;
+
+document.getElementById("kphrs").value = phr;
+
+document.getElementById("sphrs").value = a3;
+
+document.getElementById("ptstw").value = staaw;
+
+document.getElementById("sstw").value = s1;
+
+document.getElementById("dslow").value = ddpr;
+
+document.getElementById("sdslow").value = aa4;
+
+document.getElementById("ppprem").value = rrpr;
+
+document.getElementById("sppprem").value = a4;
+
+document.getElementById("rrrkf").value = rkf;
+
+document.getElementById("srrrkf").value = a5;
+
+document.getElementById("ssskf").value = skf;
+
+document.getElementById("sssskf").value = a6;
 }
 
 
